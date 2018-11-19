@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Inputs from './Inputs/Inputs';
+import Counter from './Counter/Counter';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Inputs />
+        <Counter />
       </div>
     );
   }

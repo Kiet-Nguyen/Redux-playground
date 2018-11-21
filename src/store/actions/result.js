@@ -15,7 +15,7 @@ export const storeResult = value => {
       // console.log('oldCounter', oldCounter);
       
       dispatch(saveResult(value));
-    }, 2000);
+    }, 1000);
   }
 }
 
